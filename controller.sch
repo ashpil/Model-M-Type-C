@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:controller-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -462,7 +463,7 @@ U 1 1 5DBB071E
 P 5850 2150
 F 0 "J1" H 5878 2126 50  0000 L CNN
 F 1 "Conn_01x16_Female" H 5878 2035 50  0000 L CNN
-F 2 "" H 5850 2150 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical" H 5850 2150 50  0001 C CNN
 F 3 "~" H 5850 2150 50  0001 C CNN
 	1    5850 2150
 	1    0    0    -1  
@@ -473,7 +474,7 @@ U 1 1 5DBB2007
 P 5850 3500
 F 0 "J2" H 5878 3476 50  0000 L CNN
 F 1 "Conn_01x08_Female" H 5878 3385 50  0000 L CNN
-F 2 "" H 5850 3500 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 5850 3500 50  0001 C CNN
 F 3 "~" H 5850 3500 50  0001 C CNN
 	1    5850 3500
 	1    0    0    -1  
