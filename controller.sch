@@ -418,12 +418,8 @@ Wire Wire Line
 Wire Wire Line
 	2500 4650 2500 5750
 Wire Wire Line
-	2500 5850 2350 5850
-Wire Wire Line
 	2350 5750 2500 5750
 Connection ~ 2500 5750
-Wire Wire Line
-	2500 5750 2500 5850
 $Comp
 L power:GND #PWR0112
 U 1 1 5DBE1745
@@ -435,9 +431,6 @@ F 3 "" H 2500 5900 50  0001 C CNN
 	1    2500 5900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2500 5900 2500 5850
-Connection ~ 2500 5850
 Wire Wire Line
 	2350 5350 2400 5350
 Wire Wire Line
@@ -748,4 +741,22 @@ Wire Wire Line
 	7350 1900 7500 1900
 Wire Wire Line
 	7350 1800 7500 1800
+Wire Wire Line
+	2500 5750 2500 5900
+NoConn ~ 2350 5850
+NoConn ~ 7350 4900
+NoConn ~ 7350 4800
+NoConn ~ 7350 4700
+NoConn ~ 7350 4600
+NoConn ~ 7350 4500
+NoConn ~ 7350 3400
+NoConn ~ 7350 3300
+NoConn ~ 7350 3200
+NoConn ~ 7350 3100
+NoConn ~ 7350 3000
+NoConn ~ 7350 2900
+NoConn ~ 7350 2800
+NoConn ~ 7350 2700
+NoConn ~ 7350 2500
+NoConn ~ 7350 2400
 $EndSCHEMATC
