@@ -392,10 +392,6 @@ F 3 "" H 8000 4750 50  0001 C CNN
 	1    8000 4750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8100 5100 7800 5100
-Wire Wire Line
-	8100 5200 7800 5200
 NoConn ~ 6150 4100
 NoConn ~ 6150 4000
 NoConn ~ 6150 3900
@@ -600,44 +596,10 @@ F 3 "~" H 8300 5000 50  0001 C CNN
 	1    8300 5000
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R_Small R7
-U 1 1 5DD1CC9E
-P 7700 4900
-F 0 "R7" V 7504 4900 50  0000 C CNN
-F 1 "470R" V 7595 4900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 7700 4900 50  0001 C CNN
-F 3 "~" H 7700 4900 50  0001 C CNN
-	1    7700 4900
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7600 5100 7350 5100
-Wire Wire Line
-	7600 5200 7350 5200
 Wire Wire Line
 	8100 5000 8000 5000
 Wire Wire Line
 	8000 5000 8000 4750
-Wire Wire Line
-	8100 4900 7800 4900
-Wire Wire Line
-	7350 5000 7500 5000
-Wire Wire Line
-	7500 5000 7500 4900
-Wire Wire Line
-	7600 4900 7500 4900
-$Comp
-L Device:R_Small R9
-U 1 1 5DD64EB7
-P 7700 5200
-F 0 "R9" V 7504 5200 50  0000 C CNN
-F 1 "470R" V 7595 5200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 7700 5200 50  0001 C CNN
-F 3 "~" H 7700 5200 50  0001 C CNN
-	1    7700 5200
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	7350 3600 7650 3600
 Wire Wire Line
@@ -748,20 +710,23 @@ NoConn ~ 7350 2800
 NoConn ~ 7350 2700
 NoConn ~ 7350 2500
 NoConn ~ 7350 2400
-$Comp
-L Device:R_Small R8
-U 1 1 5DD1D4DA
-P 7700 5100
-F 0 "R8" V 7504 5100 50  0000 C CNN
-F 1 "470R" V 7595 5100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 7700 5100 50  0001 C CNN
-F 3 "~" H 7700 5100 50  0001 C CNN
-	1    7700 5100
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2500 5750 2850 5750
 Wire Wire Line
 	2850 5750 2850 5550
 Connection ~ 2850 5550
+Wire Wire Line
+	8100 5100 7350 5100
+Wire Wire Line
+	8100 5200 7950 5200
+Wire Wire Line
+	7950 5200 7950 5000
+Wire Wire Line
+	7950 5000 7350 5000
+Wire Wire Line
+	8100 4900 7900 4900
+Wire Wire Line
+	7900 4900 7900 5200
+Wire Wire Line
+	7900 5200 7350 5200
 $EndSCHEMATC
