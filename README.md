@@ -20,5 +20,7 @@ Although the IBM Model M is perhaps the most well-known and popular of old keybo
 4. Install firmware.
 
 ## Firmware
-
 This board is fully compatible with QMK. Use [this fork](https://github.com/ashpil/qmk_firmware/tree/master/keyboards/ashpil/modelm_usbc "this fork") of QMK with configured ashpil/modelm_usbc keyboard for this controller.
+
+## TODO
+Create 3D print to allow for fully-native appearance and detachable cable.
