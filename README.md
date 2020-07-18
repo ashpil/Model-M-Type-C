@@ -27,3 +27,7 @@ This board is fully compatible with QMK. This is a default QMK configuration, so
 	make ashpil/modelm_usbc:default:flash
 	
 Check [here](https://github.com/qmk/qmk_firmware/tree/master/keyboards/ashpil/modelm_usbc "QMK profile") for details.
+
+## Other
+
+If you have any problems/comments, or find anything that could be improved, please submit issue or a pull request!
