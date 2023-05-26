@@ -30,6 +30,10 @@ This board is fully compatible with QMK. This is a default QMK configuration, so
 	
 Check [here](https://github.com/qmk/qmk_firmware/tree/master/keyboards/ashpil/modelm_usbc "QMK profile") for details.
 
+Alternatively you can use the [Vial](https://get.vial.today/) firmware. Setup is analogous to QMK, clone the Vial repo and run:
+	
+	make ashpil/modelm_usbc:vial:flash
+
 ## Other
 
 If you have any problems/comments, or find anything that could be improved, please submit issue or a pull request!
